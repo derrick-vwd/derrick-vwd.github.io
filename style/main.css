@@ -1,11 +1,42 @@
+html, body {
+	height: 100%;
+}
 body {
 	font-family: sans-serif;
 	margin: 0;
 }
+header {
+	background-color: rgb(175, 173, 173);
+	min-height: 100px;
+	max-height: 20%;
+	padding: 0.5rem;
+}
+header > h1 {
+	margin: 0;
+}
+main {
+	min-height: 400px;
+	height: 70%;
+	padding: 0 16px;
+	text-align: justify;
+}
+footer {
+	height: 100px;
+	display: flex;
+	align-items: center; 
+	flex-direction: column;
+	justify-content: end; 
+	width: 100%;
+}
 #home-bar {
-	bottom: 0;
-	padding: 1rem 0;
-	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	text-align: center;
 	width: 100%;
 }
+#home-bar a {
+	color: black;
+}
+/* Specifies to other pages, not home. */
