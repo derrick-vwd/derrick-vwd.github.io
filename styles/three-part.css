@@ -1,0 +1,19 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+html {
+        height: 100%;
+        font-family: sans-serif;
+}
+body {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, auto) 1fr;
+        height: 100%;
+}
+/* 
+    One column and three rows: 
+    header, main and footer.
+*/
