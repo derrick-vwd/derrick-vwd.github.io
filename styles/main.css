@@ -1,27 +1,51 @@
 header {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header > h1 {
+    font-size: 1.25rem;
 }
 header > p {
-    margin: 1rem 0;
     border: 1px solid blue;
-    padding: 1rem;
     font-size: 0.85rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 200px;
 }
 header > nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    padding: 1rem;
+}
+header > nav div {
+    border: 1px solid black;
+    width: 100%;
+}
+header > nav div a {
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.75rem;
+    justify-content: center;
+    padding: 1rem 0;
+    text-decoration: none;
+    width: 100%;
+}
+header > nav div a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 main {
-    background-color: green;
+    padding: 1rem;
 }
 footer {
     align-items: end;
-    background-color: orange;
     display: flex;
     flex-direction: row;
     justify-content: center;
