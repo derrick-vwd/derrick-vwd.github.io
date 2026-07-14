@@ -1,20 +1,20 @@
 main {
-                display: flex;
-                flex-direction: column;
-                align-items:center;
-                width: 100%;    
-                    font-size: 0.75rem;       
-            }
-            main h3 {
-                text-align: center;        
-            }
-            main p {
-                padding: 1rem 0;
-                width: 100%;
-            }
-            main ul {
-                padding: 1rem 0;
-                list-style-position: inside;
-                list-style-type: square;
-                width: 100%;        
-            }
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;    
+    font-size: 0.85rem;       
+}
+main h3 {
+    text-align: center;        
+}
+main p {
+    padding: 1rem 0;
+    width: 100%;
+}
+main ul {
+    padding: 1rem 0;
+    list-style-position: inside;
+    list-style-type: square;
+    width: 100%;        
+}
