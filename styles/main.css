@@ -22,17 +22,16 @@ header > nav {
     width: 100%;
 }
 header > nav div {
-    border: 1px solid black;
     width: 100%;
 }
 header > nav div a {
-    background-color: orange;
+    background-color: lightgray;
     color: black;
     display: flex;
     flex-direction: row;
     font-size: 0.85rem;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-decoration: none;
     width: 100%;
 }
