@@ -18,3 +18,19 @@ main ul {
     list-style-type: square;
     width: 100%;        
 }
+@media screen and (min-width: 500px) {
+    main p {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    main p {
+        width: 50%;
+    }
+    main ul {
+        border: 1px solid pink;
+        display: inline-block;
+        width: 50%;
+    }
+}
+
