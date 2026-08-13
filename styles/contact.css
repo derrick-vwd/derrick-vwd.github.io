@@ -23,3 +23,16 @@ form input[type='submit'] {
 form input[type='submit']:hover {
     cursor: pointer;
 }
+@media screen and (min-width: 700px) {
+    form {
+        width: 100%;
+        align-items: center;
+    }
+    input {
+        width: 50%;
+    }
+    textarea {
+        font-size: 1.25rem;
+        width: 50%;
+    }
+}
